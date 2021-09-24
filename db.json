@@ -1,3 +1,44 @@
 {
   "consultaHojaRutas": {"RespostaConsultaHojasRuta":{"respuesta":[{"indice":0,"matricula":"string","mes":0,"ano":0,"dependencia":"string","observacions":"string","litros":0,"importeCombustible":0,"importePeaxe":0,"totalkms":0,"totalrutas":0,"totalPaginas":0,"paginaActual":0,"ruta":{"indice":0,"conductor":{"indice":0,"nif":"string","nome":"string","apelido1":"string","apelido2":"string","organismo":{"idOrganismo":"string","nomeOrganismo":"string","vixente":true},"adscripcion":{"indice":0,"adscripcion":"string","Organismo":{"idOrganismo":"string","nomeOrganismo":"string","vixente":true}},"adscripcionXeral":{"indice":0,"idAdscripcion":0,"adscripcionXeral":"string"},"adscripcionEspecifica":{"indice":0,"idAdscripcionXeral":0,"adscripcionEspecifica":"string"},"lugarBase":{"indice":0,"idAdscripcionEspecifica":0,"lugarBase":"string"},"dataAlta":"2021-09-20","dataBaixa":"2021-09-20","idSupervisorAsignado":"string"},"dataHoraSaida":"2021-09-20","dataHoraChegada":"2021-09-20","kmsSaida":0,"kmsChegada":0,"kmsActualesRegistro":0,"lugarRecollida":"string","lugarEntrega":"string","infoServizo":"string","validado":true,"follaRuta":{"indice":0,"matricula":"string","mes":0,"ano":0,"dependencia":"string","organismo":{"idOrganismo":"string","nomeOrganismo":"string","vixente":true},"adscripcion":{"indice":0,"adscripcion":"string","Organismo":{"idOrganismo":"string","nomeOrganismo":"string","vixente":true}},"adscripcionXeral":{"indice":0,"idAdscripcion":0,"adscripcionXeral":"string"},"adscripcionEspecifica":{"indice":0,"idAdscripcionXeral":0,"adscripcionEspecifica":"string"},"lugarBase":{"indice":0,"idAdscripcionEspecifica":0,"lugarBase":"string"},"validada":true},"cargosRuta":[{"litros":0,"importe":0,"numeroTicket":"string","numeroFactura":"string","dataFactura":"string","solred":true,"validada":true,"gasto":{"indice":0,"matricula":"string","concepto":{"descripcion":"string","dataBaixa":"string"},"gasto":0,"data":"string","mes":0,"ano":0,"tipoDeReparacion":"string","TipoDeCombustible":"string","comentarios":"string","litros":0,"kms":0,"kmsUltimaVez":0,"cif":"string","numeroFactura":"string","fechaPago":"string","kmsNuevos":0,"indiceCMADS":0,"referencia":"string","pagado":true,"solred":true,"comprobado":true,"subconcepto":{"descripcion":"string","dataBaixa":"string"},"indiceRuta":0},"tipoCargo":"string"}],"gastos":[{"indice":0,"matricula":"string","concepto":{"descripcion":"string","dataBaixa":"string"},"gasto":0,"data":"string","mes":0,"ano":0,"tipoDeReparacion":"string","TipoDeCombustible":"string","comentarios":"string","litros":0,"kms":0,"kmsUltimaVez":0,"cif":"string","numeroFactura":"string","fechaPago":"string","kmsNuevos":0,"indiceCMADS":0,"referencia":"string","pagado":true,"solred":true,"comprobado":true,"subconcepto":{"descripcion":"string","dataBaixa":"string"},"indiceRuta":0}]}}]}}
+  "validarFollaRuta": {
+  "RespostaValidarFollaRuta": {
+    "respuesta": {
+      "indice": 0,
+      "matricula": "string",
+      "mes": 0,
+      "ano": 0,
+      "dependencia": "string",
+      "organismo": {
+        "idOrganismo": "string",
+        "nomeOrganismo": "string",
+        "vixente": true
+      },
+      "adscripcion": {
+        "indice": 0,
+        "adscripcion": "string",
+        "Organismo": {
+          "idOrganismo": "string",
+          "nomeOrganismo": "string",
+          "vixente": true
+        }
+      },
+      "adscripcionXeral": {
+        "indice": 0,
+        "idAdscripcion": 0,
+        "adscripcionXeral": "string"
+      },
+      "adscripcionEspecifica": {
+        "indice": 0,
+        "idAdscripcionXeral": 0,
+        "adscripcionEspecifica": "string"
+      },
+      "lugarBase": {
+        "indice": 0,
+        "idAdscripcionEspecifica": 0,
+        "lugarBase": "string"
+      },
+      "validada": true
+    }
+  }
+}
 }
